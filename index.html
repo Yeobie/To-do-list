@@ -5,6 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+    <link rel="stylesheet" href="/JS/jquery-ui-1.13.2/jquery-ui.min.css"
   </head>
-  <body></body>
+  <body>
+    <div class="container" id="toDoListWrapper">
+      <h1>Ilaria's To Do List</h1>
+
+      <div id="toDoList">
+        <ul>
+          <li class="weekday">Monday</li>
+          <li class="addItem">
+            <input type="text" placeholder="I have to..." />
+          </li>
+        </ul>
+
+        <ul>
+          <li class="weekday">Tuesday</li>
+          <li class="addItem">
+            <input type="text" placeholder="I have to..." />
+          </li>
+        </ul>
+
+        <ul>
+          <li class="weekday">Wednesday</li>
+          <li class="addItem">
+            <input type="text" placeholder="I have to..." />
+          </li>
+        </ul>
+
+        <ul>
+          <li class="weekday">Thursday</li>
+          <li class="addItem">
+            <input type="text" placeholder="I have to..." />
+          </li>
+        </ul>
+
+        <ul>
+          <li class="weekday">Friday</li>
+          <li class="addItem">
+            <input type="text" placeholder="I have to..." />
+          </li>
+        </ul>
+
+        <ul>
+          <li class="weekday">Saturday</li>
+          <li class="addItem">
+            <input type="text" placeholder="I have to..." />
+          </li>
+        </ul>
+
+        <ul>
+          <li class="weekday">Sunday</li>
+          <li class="addItem">
+            <input type="text" placeholder="I have to..." />
+          </li>
+        </ul>
+      </div>
+
+      <h2 id="trash">Drop here to delete...</h2>
+    </div>
+    <!--prima carica la versione CDN-->
+    <script
+      src="//code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--se la versione CDN non è disponibile, carica la versione locale -->
+    <script>
+      window.jQuery || document.write('<script src="/JS/script.js"><\/script>');
+    </script>
+
+    <script src="/JS/jquery-ui-1.13.2/jquery-ui.js"></script>
+    <script src="/JS/script.js"></script>
+  </body>
 </html>
